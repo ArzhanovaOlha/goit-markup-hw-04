@@ -202,7 +202,7 @@ ul {
 .team-list-item:hover .wrapper {
   background: #404BBF;
 }
-.team-list-item .wrapper:hover, .socialmedia .wrapper:hover , .team-list-item .wrapper:active, .socialmedia .wrapper:active {
+.team-list-item .wrapper:hover, .socialmedia .wrapper:hover , .team-list-item .wrapper:active, .socialmedia .wrapper:active , .team-list-item .wrapper:focus, .socialmedia .wrapper:focus {
   background: #404BBF;
   
 }
