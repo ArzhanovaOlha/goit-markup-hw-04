@@ -209,6 +209,10 @@ ul {
   background: #404BBF;
   
 }
+.footer .socialmedia .wrapper:hover , .footer .socialmedia .wrapper:active ,  .footer .socialmedia .wrapper:focus {
+  background: #31d0aa;
+  
+}
 .portfolio-list-item {
   width: calc((100% - 48px) / 3);
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
