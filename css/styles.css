@@ -168,12 +168,15 @@ ul {
   height: 40px;
   width: 40px;;
 }
+.icon-svg {
+  fill: #f4f4fd;
+}
 .team-list-item .wrapper, .socialmedia .wrapper {
   background: #4D5AE5;
   display: flex;
   align-items: center;
   justify-content: center;
-  border-radius: 50px;
+  border-radius: 50%;
   margin: 8px 0 0;
  height: 100%;
  width: 100%;
@@ -199,8 +202,8 @@ ul {
 .team-list-item:hover .wrapper {
   background: #404BBF;
 }
-.team-list-item .wrapper:hover, .socialmedia .wrapper:hover {
-  background: #31D0AA;
+.team-list-item .wrapper:hover, .socialmedia .wrapper:hover , .team-list-item .wrapper:active, .socialmedia .wrapper:active {
+  background: #404BBF;
   
 }
 .portfolio-list-item {
