@@ -193,11 +193,14 @@ ul {
   font-weight: 500;
   margin: 0 0 8px;
 }
-.footer .inner {
+.footer .container {
   display: flex;
   flex-direction: row;
-  gap: 120px;
+  align-items: baseline;
   justify-content: flex-start;
+}
+.footer .info {
+  margin-right: 120px;
 }
 .team-list-item:hover .wrapper {
   background: #404BBF;
