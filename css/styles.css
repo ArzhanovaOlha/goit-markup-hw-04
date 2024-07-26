@@ -164,6 +164,9 @@ ul {
   justify-content: center;
   gap: 24px;
 }
+.footer .socialmedia .icons {
+  gap: 16px;
+}
 .icons-items {
   height: 40px;
   width: 40px;;
@@ -182,16 +185,19 @@ ul {
  width: 100%;
  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+.footer .socialmedia .wrapper {
+  margin: 0;
+}
 .socialmedia {
   display: flex;
   flex-direction: column;
   align-items: start;
 }
-.socialmedia p {
+.socialmedia .text {
   color: #ffffff;
   font-size: 16px;
   font-weight: 500;
-  margin: 0 0 8px;
+  margin: 0 0 16px;
 }
 .footer .container {
   display: flex;
